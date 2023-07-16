@@ -82,7 +82,7 @@
     align-items: center;
     justify-content: center;
     width: 70px;
-    height: 80%;
+    height: 60%;
     border-right: 1px solid #0000002e;
   }
 
