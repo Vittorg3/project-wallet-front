@@ -69,7 +69,7 @@
   div.auth-input {
     display: flex;
     align-items: center;
-    border-radius: 10px;
+    border-radius: 15px;
     width: 100%;
     height: 60px;
     margin: 0 auto;
@@ -97,8 +97,8 @@
     border: 0;
     font-weight: bold;
     font-size: 14px;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
     padding-left: 10px;
     outline: 0;
   }
