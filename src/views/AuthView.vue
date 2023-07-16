@@ -1,8 +1,12 @@
 <template>
   <main>
     <section class="auth">
+      <div class="logo-area">
+        <img src="src/assets/img/png/wallet.png" />
+        <h1 class="title">FinanSer</h1>
+      </div>
       <div class="auth-form">
-        <h1>BEM VINDO</h1>
+        <h2>BEM VINDO</h2>
         <label class="subtitle">Organize sua vida financeira aqui.</label>
         <div class="auth-input">
           <div class="icon-area">
@@ -34,10 +38,23 @@
 
   section.auth {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 100%;
     height: 100%;
+  }
+
+  div.logo-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+
+  div.logo-area img {
+    width: 40px;
+    height: 40px;
   }
 
   div.auth-form {
@@ -93,7 +110,7 @@
     border: 0;
     color: #fff;
     font-weight: bold;
-    background-color: #6c5ce7;
+    background-color: #0c37d1;
     cursor: pointer;
     transition: all ease .2s;
     margin-top: 10px;
@@ -103,9 +120,19 @@
     filter: brightness(0.8);
   }
 
-  h1 {
+  h1.title {
+    font-family: 'Ysabeau Office', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    color: #000;
+    margin-left: 10px;
+    margin-right: 20px;
+  }
+
+  h2 {
     color: #000;
     font-weight: bold;
+    font-size: 18px;
   }
 
   label.subtitle {
