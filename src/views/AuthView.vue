@@ -8,6 +8,11 @@
       <div class="auth-form">
         <h2>BEM VINDO</h2>
         <label class="subtitle">Organize sua vida financeira aqui.</label>
+        <input id="toogle" class="toogle" type="checkbox" />
+        <label for="toogle" class="toogle-custom">
+          <label class="option">login</label>
+          <label class="option">cadastrar</label>
+        </label>
         <div class="auth-input">
           <div class="icon-area">
             <img src="src/assets/img/png/mail-inbox-app.png" />
@@ -137,5 +142,50 @@
 
   label.subtitle {
     color: #000000c0 !important;
+  }
+
+  input.toogle {
+    display: none;
+  }
+
+  label.toogle-custom {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    border-radius: 15px;
+    margin-top: 15px;
+    border: 1px solid #00000010;
+  }
+
+  label.toogle-custom::before {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    content: 'login';
+    width: 50%;
+    height: 100%;
+    cursor: pointer;
+    border-radius: 15px;
+    background-color: #e9e9e9bd;
+    transition: all ease .2s;
+    left: 0;
+    z-index: 1;
+  }
+
+  .toogle:checked + label.toogle-custom::before {
+    left: calc(50%);
+    content: 'cadastrar';
+  }
+
+  label.option {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.7;
   }
 </style>
