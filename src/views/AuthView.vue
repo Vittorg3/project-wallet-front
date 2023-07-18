@@ -84,6 +84,7 @@
     align-items: center;
     width: 390px;
     height: auto;
+    transition: all ease 4s;
   }
 
   div.auth-input {
@@ -95,6 +96,11 @@
     margin: 0 auto;
     margin: 10px 0;
     border: 1px solid #0000002e;
+    transition: all ease .2s;
+  }
+
+  div.auth-input:hover, div.auth-input:focus {
+    border: 1px solid #00000060;
   }
 
   div.icon-area {
