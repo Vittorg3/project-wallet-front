@@ -8,11 +8,17 @@
       <div class="auth-form">
         <h2>BEM VINDO</h2>
         <label class="subtitle">Organize sua vida financeira aqui.</label>
-        <input id="toogle" class="toogle" type="checkbox" />
+        <input id="toogle" class="toogle" type="checkbox" v-model="isSignup" />
         <label for="toogle" class="toogle-custom">
           <label class="option">login</label>
           <label class="option">cadastrar</label>
         </label>
+        <div class="auth-input" v-if="isSignup">
+          <div class="icon-area">
+            <img src="src/assets/img/png/mail-inbox-app.png" />
+          </div>
+          <input class="input-custom" type="text" placeholder="nome de usuário" />
+        </div>
         <div class="auth-input">
           <div class="icon-area">
             <img src="src/assets/img/png/mail-inbox-app.png" />
@@ -25,6 +31,12 @@
           </div>
           <input class="input-custom" type="password" placeholder="senha" />
         </div>
+        <div class="auth-input" v-if="isSignup">
+          <div class="icon-area">
+            <img src="src/assets/img/png/hide.png" />
+          </div>
+          <input class="input-custom" type="password" placeholder="confirmar senha" />
+        </div>
         <button class="btn-main">entrar</button>
       </div>
     </section>
@@ -32,6 +44,13 @@
 </template>
 
 <script setup lang="ts">
+  import { ref, watch } from 'vue'
+
+  let isSignup = ref(false)
+  
+  watch(isSignup, (value: boolean) => {
+    console.log('value => ', value)
+  })
 </script>
 
 <style scoped>
@@ -68,7 +87,7 @@
     justify-content: center;
     align-items: center;
     width: 390px;
-    height: 400px;
+    height: auto;
   }
 
   div.auth-input {
@@ -172,12 +191,13 @@
     background-color: #e9e9e9bd;
     transition: all ease .2s;
     left: 0;
-    z-index: 1;
+    z-index: 2;
   }
 
   .toogle:checked + label.toogle-custom::before {
     left: calc(50%);
     content: 'cadastrar';
+    z-index: 2;
   }
 
   label.option {
