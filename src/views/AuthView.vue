@@ -47,10 +47,6 @@
   import { ref, watch } from 'vue'
 
   let isSignup = ref(false)
-  
-  watch(isSignup, (value: boolean) => {
-    console.log('value => ', value)
-  })
 </script>
 
 <style scoped>
