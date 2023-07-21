@@ -97,6 +97,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-right: 27%;
   }
 
   div.logo-area img {
@@ -147,7 +148,7 @@
   .link-area label {
     font-size: 20px;
     margin-left: 20px;
-    font-weight: bold;
+    font-weight: 500;
     cursor: pointer;
   }
 </style>
