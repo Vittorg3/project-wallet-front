@@ -6,7 +6,7 @@
         <h1 class="title">FinanSer</h1>
       </div>
       <section class="links">
-        <div v-for="link in sidebarLinks" class="link-area">
+        <div v-for="link in sidebarLinks" :class="['link-area', { active: link.isActive }]" @click="selectMenuItem(link.id)">
           <img :src="link.icon" />
           <label>{{ link.title }}</label>
         </div>
@@ -20,18 +20,41 @@
 </template>
 
 <script setup lang="ts">
-import { RouterView } from 'vue-router'
-import Header from '@/components/header/Header.vue'
+  import { RouterView } from 'vue-router'
+  import Header from '@/components/header/Header.vue'
 
-import { ref } from 'vue'
+  import { ref } from 'vue'
 
-let sidebarLinks = ref([
-  {
-    title: 'cateiras',
-    icon: 'src/assets/img/png/wallet.png',
-    isActive: false
+  let sidebarLinks = ref([
+    {
+      id: 1,
+      title: 'Carteiras',
+      icon: 'src/assets/img/png/money-bag.png',
+      isActive: true
+    },
+    {
+      id: 2,
+      title: 'Analises',
+      icon: 'src/assets/img/png/file.png',
+      isActive: false
+    },
+    {
+      id: 3,
+      title: 'Metas',
+      icon: 'src/assets/img/png/goals.png',
+      isActive: false
+    }
+  ])
+
+  function selectMenuItem(itemID: number) {
+    sidebarLinks.value = sidebarLinks.value.map((link) => {
+      return {
+        ...link,
+        isActive: link.id === itemID,
+      };
+    })
   }
-])
+
 </script>
 
 <style scoped>
@@ -49,10 +72,10 @@ let sidebarLinks = ref([
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 30%;
+    width: 20%;
     height: 100vh;
     padding-top: 30px;
-    border-right: 0.1px solid #0000001a;
+    border-right: 0.1px solid #00000010;
   }
 
   section.content {
@@ -75,7 +98,7 @@ let sidebarLinks = ref([
   h1.title {
     font-family: 'Ysabeau Office', sans-serif;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 30px;
     color: #000;
     margin-left: 10px;
   }
@@ -84,20 +107,33 @@ let sidebarLinks = ref([
     width: 100%;
     margin-top: 100px;
     align-items: center;
-    background-color: red;
+    padding-left: 40px;
   }
 
   div.link-area {
     display: flex;
     align-items: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+    width: 90%;
+    padding: 10px;
+    border-radius: 15px;
+    transition: all ease .2s;
+  }
+
+  div.link-area.active {
+    background-color: #cbdcf067;
+    scale: 1.1;
   }
 
   div.link-area img {
-    width: 25px;
+    width: 35px;
   }
 
   div.link-area label {
     font-size: 20px;
     margin-left: 20px;
+    font-weight: bold;
+    cursor: pointer;
   }
 </style>
