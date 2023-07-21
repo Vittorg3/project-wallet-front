@@ -6,10 +6,16 @@
         <h1 class="title">FinanSer</h1>
       </div>
       <section class="links">
-        <div v-for="link in sidebarLinks" :class="['link-area', { active: link.isActive }]" @click="selectMenuItem(link.id)">
+        <router-link
+          v-for="link in sidebarLinks"
+          :key="link.id"
+          :to="link.path"
+          :class="['link-area', { active: link.isActive }]"
+          @click="selectMenuItem(link.id)"
+        >
           <img :src="link.icon" />
           <label>{{ link.title }}</label>
-        </div>
+        </router-link>
       </section>
     </section>
     <section class="content">
@@ -20,7 +26,7 @@
 </template>
 
 <script setup lang="ts">
-  import { RouterView } from 'vue-router'
+  import { RouterView, RouterLink } from 'vue-router'
   import Header from '@/components/header/Header.vue'
 
   import { ref } from 'vue'
@@ -30,17 +36,20 @@
       id: 1,
       title: 'Carteiras',
       icon: 'src/assets/img/png/money-bag.png',
+      path: '/wallets',
       isActive: true
     },
     {
       id: 2,
       title: 'Analises',
+      path: '/reports',
       icon: 'src/assets/img/png/file.png',
       isActive: false
     },
     {
       id: 3,
       title: 'Metas',
+      path: '/goals',
       icon: 'src/assets/img/png/goals.png',
       isActive: false
     }
@@ -110,7 +119,7 @@
     padding-left: 40px;
   }
 
-  div.link-area {
+  .link-area {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
@@ -119,9 +128,14 @@
     padding: 10px;
     border-radius: 15px;
     transition: all ease .2s;
+    text-decoration: none;
   }
 
-  div.link-area.active {
+  .link-area:visited {
+    color: inherit;
+  }
+
+  .link-area.active {
     background-color: #cbdcf067;
     scale: 1.1;
   }
@@ -130,7 +144,7 @@
     width: 35px;
   }
 
-  div.link-area label {
+  .link-area label {
     font-size: 20px;
     margin-left: 20px;
     font-weight: bold;
