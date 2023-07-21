@@ -140,7 +140,7 @@
     scale: 1.1;
   }
 
-  div.link-area img {
+  .link-area img {
     width: 35px;
   }
 
