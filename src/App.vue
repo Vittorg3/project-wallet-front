@@ -26,10 +26,13 @@
 </template>
 
 <script setup lang="ts">
-  import { RouterView, RouterLink } from 'vue-router'
+  import { RouterView, RouterLink, useRoute } from 'vue-router'
   import Header from '@/components/header/Header.vue'
 
-  import { ref } from 'vue'
+  import { ref, onMounted, watchEffect } from 'vue'
+
+  let currentRoute = useRoute()
+  let currentPath = ref(currentRoute.path)
 
   let sidebarLinks = ref([
     {
@@ -63,6 +66,16 @@
       };
     })
   }
+
+  watchEffect(() => {
+    currentPath.value = currentRoute.path;
+    sidebarLinks.value = sidebarLinks.value.map((link) => {
+      return {
+        ...link,
+        isActive: link.path === currentPath.value,
+      };
+    });
+})
 
 </script>
 
