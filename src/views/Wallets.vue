@@ -29,7 +29,7 @@
         <div class="transactions-scroll-area">
           <div class="transaction-single">
             <div class="transaction-type-icon">
-              <img src="src/assets/img/svg/arrow-up-icon.svg" />
+              <img src="src/assets/img/svg/arrow-down-icon.svg" />
             </div>
             <div class="transaction-info-area">
               <label>Blusa Social | Riachuelo</label>
@@ -44,11 +44,11 @@
               <img src="src/assets/img/svg/arrow-up-icon.svg" />
             </div>
             <div class="transaction-info-area">
-              <label>Blusa Social | Riachuelo</label>
-              <span>11/07/2023, 10:20</span>
+              <label>Pix | Dayana</label>
+              <span>29/07/2023, 12:15</span>
             </div>
             <div class="transaction-value-area">
-              <span class="negative">-$140,00</span>
+              <span class="positive">$140,00</span>
             </div>
           </div>
           <div class="transaction-single">
@@ -56,11 +56,11 @@
               <img src="src/assets/img/svg/arrow-up-icon.svg" />
             </div>
             <div class="transaction-info-area">
-              <label>Blusa Social | Riachuelo</label>
-              <span>11/07/2023, 10:20</span>
+              <label>Pix | Dayana</label>
+              <span>29/07/2023, 12:15</span>
             </div>
             <div class="transaction-value-area">
-              <span class="negative">-$140,00</span>
+              <span class="positive">$140,00</span>
             </div>
           </div>
           <div class="transaction-single">
@@ -68,11 +68,11 @@
               <img src="src/assets/img/svg/arrow-up-icon.svg" />
             </div>
             <div class="transaction-info-area">
-              <label>Blusa Social | Riachuelo</label>
-              <span>11/07/2023, 10:20</span>
+              <label>Pix | Dayana</label>
+              <span>29/07/2023, 12:15</span>
             </div>
             <div class="transaction-value-area">
-              <span class="negative">-$140,00</span>
+              <span class="positive">$140,00</span>
             </div>
           </div>
           <div class="transaction-single">
@@ -80,11 +80,11 @@
               <img src="src/assets/img/svg/arrow-up-icon.svg" />
             </div>
             <div class="transaction-info-area">
-              <label>Blusa Social | Riachuelo</label>
-              <span>11/07/2023, 10:20</span>
+              <label>Pix | Dayana</label>
+              <span>29/07/2023, 12:15</span>
             </div>
             <div class="transaction-value-area">
-              <span class="negative">-$140,00</span>
+              <span class="positive">$140,00</span>
             </div>
           </div>
           <div class="transaction-single">
@@ -92,11 +92,11 @@
               <img src="src/assets/img/svg/arrow-up-icon.svg" />
             </div>
             <div class="transaction-info-area">
-              <label>Blusa Social | Riachuelo</label>
-              <span>11/07/2023, 10:20</span>
+              <label>Pix | Dayana</label>
+              <span>29/07/2023, 12:15</span>
             </div>
             <div class="transaction-value-area">
-              <span class="negative">-$140,00</span>
+              <span class="positive">$140,00</span>
             </div>
           </div>
           <div class="transaction-single">
@@ -104,11 +104,11 @@
               <img src="src/assets/img/svg/arrow-up-icon.svg" />
             </div>
             <div class="transaction-info-area">
-              <label>Blusa Social | Riachuelo</label>
-              <span>11/07/2023, 10:20</span>
+              <label>Pix | Dayana</label>
+              <span>29/07/2023, 12:15</span>
             </div>
             <div class="transaction-value-area">
-              <span class="negative">-$140,00</span>
+              <span class="positive">$140,00</span>
             </div>
           </div>
           <div class="transaction-single">
@@ -116,11 +116,11 @@
               <img src="src/assets/img/svg/arrow-up-icon.svg" />
             </div>
             <div class="transaction-info-area">
-              <label>Blusa Social | Riachuelo</label>
-              <span>11/07/2023, 10:20</span>
+              <label>Pix | Dayana</label>
+              <span>29/07/2023, 12:15</span>
             </div>
             <div class="transaction-value-area">
-              <span class="negative">-$140,00</span>
+              <span class="positive">$140,00</span>
             </div>
           </div>
           <div class="transaction-single">
@@ -128,11 +128,11 @@
               <img src="src/assets/img/svg/arrow-up-icon.svg" />
             </div>
             <div class="transaction-info-area">
-              <label>Blusa Social | Riachuelo</label>
-              <span>11/07/2023, 10:20</span>
+              <label>Pix | Dayana</label>
+              <span>29/07/2023, 12:15</span>
             </div>
             <div class="transaction-value-area">
-              <span class="negative">-$140,00</span>
+              <span class="positive">$140,00</span>
             </div>
           </div>
           <div class="transaction-single">
@@ -140,11 +140,11 @@
               <img src="src/assets/img/svg/arrow-up-icon.svg" />
             </div>
             <div class="transaction-info-area">
-              <label>Blusa Social | Riachuelo</label>
-              <span>11/07/2023, 10:20</span>
+              <label>Pix | Dayana</label>
+              <span>29/07/2023, 12:15</span>
             </div>
             <div class="transaction-value-area">
-              <span class="negative">-$140,00</span>
+              <span class="positive">$140,00</span>
             </div>
           </div>
           <div class="transaction-single">
@@ -152,11 +152,11 @@
               <img src="src/assets/img/svg/arrow-up-icon.svg" />
             </div>
             <div class="transaction-info-area">
-              <label>Blusa Social | Riachuelo</label>
-              <span>11/07/2023, 10:20</span>
+              <label>Pix | Dayana</label>
+              <span>29/07/2023, 12:15</span>
             </div>
             <div class="transaction-value-area">
-              <span class="negative">-$140,00</span>
+              <span class="positive">$140,00</span>
             </div>
           </div>
           <div class="transaction-single">
@@ -164,11 +164,11 @@
               <img src="src/assets/img/svg/arrow-up-icon.svg" />
             </div>
             <div class="transaction-info-area">
-              <label>Blusa Social | Riachuelo</label>
-              <span>11/07/2023, 10:20</span>
+              <label>Pix | Dayana</label>
+              <span>29/07/2023, 12:15</span>
             </div>
             <div class="transaction-value-area">
-              <span class="negative">-$140,00</span>
+              <span class="positive">$140,00</span>
             </div>
           </div>
           <div class="transaction-single">
@@ -176,11 +176,11 @@
               <img src="src/assets/img/svg/arrow-up-icon.svg" />
             </div>
             <div class="transaction-info-area">
-              <label>Blusa Social | Riachuelo</label>
-              <span>11/07/2023, 10:20</span>
+              <label>Pix | Dayana</label>
+              <span>29/07/2023, 12:15</span>
             </div>
             <div class="transaction-value-area">
-              <span class="negative">-$140,00</span>
+              <span class="positive">$140,00</span>
             </div>
           </div>
           <div class="transaction-single">
@@ -188,11 +188,11 @@
               <img src="src/assets/img/svg/arrow-up-icon.svg" />
             </div>
             <div class="transaction-info-area">
-              <label>Blusa Social | Riachuelo</label>
-              <span>11/07/2023, 10:20</span>
+              <label>Pix | Dayana</label>
+              <span>29/07/2023, 12:15</span>
             </div>
             <div class="transaction-value-area">
-              <span class="negative">-$140,00</span>
+              <span class="positive">$140,00</span>
             </div>
           </div>
           <div class="transaction-single">
@@ -200,11 +200,11 @@
               <img src="src/assets/img/svg/arrow-up-icon.svg" />
             </div>
             <div class="transaction-info-area">
-              <label>Blusa Social | Riachuelo</label>
-              <span>11/07/2023, 10:20</span>
+              <label>Pix | Dayana</label>
+              <span>29/07/2023, 12:15</span>
             </div>
             <div class="transaction-value-area">
-              <span class="negative">-$140,00</span>
+              <span class="positive">$140,00</span>
             </div>
           </div>
         </div>
@@ -427,9 +427,13 @@
     align-items: center;
   }
 
-  div.transaction-value-area .negative {
+  div.transaction-value-area .positive, .negative {
     color: #FF0F74;
     font-size: 16px;
     font-weight: 500;
+  }
+
+  div.transaction-value-area .positive {
+    color: rgb(76, 194, 76);
   }
 </style>
