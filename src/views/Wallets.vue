@@ -367,14 +367,14 @@
   }
 
   div.transactions-scroll-area::-webkit-scrollbar {
-    width: 12px;
+    width: 8px;
     border-radius: 20px;
     background-color: rgb(245, 244, 244);
   }
 
   div.transactions-scroll-area::-webkit-scrollbar-thumb {
     border-radius: 20px;
-    background-color: #00000018;
+    background-color: #00000010;
   }
   
   div.transaction-single {
