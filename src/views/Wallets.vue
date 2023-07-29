@@ -26,6 +26,188 @@
       </div>
       <div class="transactions">
         <h1>Transações</h1>
+        <div class="transactions-scroll-area">
+          <div class="transaction-single">
+            <div class="transaction-type-icon">
+              <img src="src/assets/img/svg/arrow-up-icon.svg" />
+            </div>
+            <div class="transaction-info-area">
+              <label>Blusa Social | Riachuelo</label>
+              <span>11/07/2023, 10:20</span>
+            </div>
+            <div class="transaction-value-area">
+              <span class="negative">-$140,00</span>
+            </div>
+          </div>
+          <div class="transaction-single">
+            <div class="transaction-type-icon">
+              <img src="src/assets/img/svg/arrow-up-icon.svg" />
+            </div>
+            <div class="transaction-info-area">
+              <label>Blusa Social | Riachuelo</label>
+              <span>11/07/2023, 10:20</span>
+            </div>
+            <div class="transaction-value-area">
+              <span class="negative">-$140,00</span>
+            </div>
+          </div>
+          <div class="transaction-single">
+            <div class="transaction-type-icon">
+              <img src="src/assets/img/svg/arrow-up-icon.svg" />
+            </div>
+            <div class="transaction-info-area">
+              <label>Blusa Social | Riachuelo</label>
+              <span>11/07/2023, 10:20</span>
+            </div>
+            <div class="transaction-value-area">
+              <span class="negative">-$140,00</span>
+            </div>
+          </div>
+          <div class="transaction-single">
+            <div class="transaction-type-icon">
+              <img src="src/assets/img/svg/arrow-up-icon.svg" />
+            </div>
+            <div class="transaction-info-area">
+              <label>Blusa Social | Riachuelo</label>
+              <span>11/07/2023, 10:20</span>
+            </div>
+            <div class="transaction-value-area">
+              <span class="negative">-$140,00</span>
+            </div>
+          </div>
+          <div class="transaction-single">
+            <div class="transaction-type-icon">
+              <img src="src/assets/img/svg/arrow-up-icon.svg" />
+            </div>
+            <div class="transaction-info-area">
+              <label>Blusa Social | Riachuelo</label>
+              <span>11/07/2023, 10:20</span>
+            </div>
+            <div class="transaction-value-area">
+              <span class="negative">-$140,00</span>
+            </div>
+          </div>
+          <div class="transaction-single">
+            <div class="transaction-type-icon">
+              <img src="src/assets/img/svg/arrow-up-icon.svg" />
+            </div>
+            <div class="transaction-info-area">
+              <label>Blusa Social | Riachuelo</label>
+              <span>11/07/2023, 10:20</span>
+            </div>
+            <div class="transaction-value-area">
+              <span class="negative">-$140,00</span>
+            </div>
+          </div>
+          <div class="transaction-single">
+            <div class="transaction-type-icon">
+              <img src="src/assets/img/svg/arrow-up-icon.svg" />
+            </div>
+            <div class="transaction-info-area">
+              <label>Blusa Social | Riachuelo</label>
+              <span>11/07/2023, 10:20</span>
+            </div>
+            <div class="transaction-value-area">
+              <span class="negative">-$140,00</span>
+            </div>
+          </div>
+          <div class="transaction-single">
+            <div class="transaction-type-icon">
+              <img src="src/assets/img/svg/arrow-up-icon.svg" />
+            </div>
+            <div class="transaction-info-area">
+              <label>Blusa Social | Riachuelo</label>
+              <span>11/07/2023, 10:20</span>
+            </div>
+            <div class="transaction-value-area">
+              <span class="negative">-$140,00</span>
+            </div>
+          </div>
+          <div class="transaction-single">
+            <div class="transaction-type-icon">
+              <img src="src/assets/img/svg/arrow-up-icon.svg" />
+            </div>
+            <div class="transaction-info-area">
+              <label>Blusa Social | Riachuelo</label>
+              <span>11/07/2023, 10:20</span>
+            </div>
+            <div class="transaction-value-area">
+              <span class="negative">-$140,00</span>
+            </div>
+          </div>
+          <div class="transaction-single">
+            <div class="transaction-type-icon">
+              <img src="src/assets/img/svg/arrow-up-icon.svg" />
+            </div>
+            <div class="transaction-info-area">
+              <label>Blusa Social | Riachuelo</label>
+              <span>11/07/2023, 10:20</span>
+            </div>
+            <div class="transaction-value-area">
+              <span class="negative">-$140,00</span>
+            </div>
+          </div>
+          <div class="transaction-single">
+            <div class="transaction-type-icon">
+              <img src="src/assets/img/svg/arrow-up-icon.svg" />
+            </div>
+            <div class="transaction-info-area">
+              <label>Blusa Social | Riachuelo</label>
+              <span>11/07/2023, 10:20</span>
+            </div>
+            <div class="transaction-value-area">
+              <span class="negative">-$140,00</span>
+            </div>
+          </div>
+          <div class="transaction-single">
+            <div class="transaction-type-icon">
+              <img src="src/assets/img/svg/arrow-up-icon.svg" />
+            </div>
+            <div class="transaction-info-area">
+              <label>Blusa Social | Riachuelo</label>
+              <span>11/07/2023, 10:20</span>
+            </div>
+            <div class="transaction-value-area">
+              <span class="negative">-$140,00</span>
+            </div>
+          </div>
+          <div class="transaction-single">
+            <div class="transaction-type-icon">
+              <img src="src/assets/img/svg/arrow-up-icon.svg" />
+            </div>
+            <div class="transaction-info-area">
+              <label>Blusa Social | Riachuelo</label>
+              <span>11/07/2023, 10:20</span>
+            </div>
+            <div class="transaction-value-area">
+              <span class="negative">-$140,00</span>
+            </div>
+          </div>
+          <div class="transaction-single">
+            <div class="transaction-type-icon">
+              <img src="src/assets/img/svg/arrow-up-icon.svg" />
+            </div>
+            <div class="transaction-info-area">
+              <label>Blusa Social | Riachuelo</label>
+              <span>11/07/2023, 10:20</span>
+            </div>
+            <div class="transaction-value-area">
+              <span class="negative">-$140,00</span>
+            </div>
+          </div>
+          <div class="transaction-single">
+            <div class="transaction-type-icon">
+              <img src="src/assets/img/svg/arrow-up-icon.svg" />
+            </div>
+            <div class="transaction-info-area">
+              <label>Blusa Social | Riachuelo</label>
+              <span>11/07/2023, 10:20</span>
+            </div>
+            <div class="transaction-value-area">
+              <span class="negative">-$140,00</span>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
     <section class="quick-start-section">
@@ -58,6 +240,7 @@
     padding-left: 30px;
     width: 100%;
     height: 300px;
+    min-height: 300px;
   }
 
   div.wallet {
@@ -160,14 +343,93 @@
   div.transactions {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    flex: 1;
+    align-items: flex-start;
+    width: 83%;
+    height: 100%;
     margin-top: 30px;
+    padding-left: 0px;
+    margin-right: 18%;
   }
 
   h1 {
     font-size: 30px;
     font-weight: bold;
     margin-left: 40px;
+  }
+
+  div.transactions-scroll-area {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+    overflow-x: auto;
+  }
+
+  div.transactions-scroll-area::-webkit-scrollbar {
+    width: 12px;
+    border-radius: 20px;
+    background-color: rgb(245, 244, 244);
+  }
+
+  div.transactions-scroll-area::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    background-color: #00000018;
+  }
+  
+  div.transaction-single {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    height: 70px;
+    min-height: 70px;
+    margin-left: 40px;
+    padding: 0 10px;
+    margin-bottom: 10px;
+    background-color: #fcfcfc;
+    cursor: pointer;
+    border-bottom: 0.5px solid #00000021;
+  }
+
+  div.transaction-type-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 100%;
+  }
+
+  div.transaction-type-icon img {
+    width: 30px;
+  }
+
+  div.transaction-info-area {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+  }
+
+  div.transaction-info-area label {
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  div.transaction-info-area span {
+    color: #000000b6;
+  }
+
+  div.transaction-value-area {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+    height: 100%;
+    align-items: center;
+  }
+
+  div.transaction-value-area .negative {
+    color: #FF0F74;
+    font-size: 16px;
+    font-weight: 500;
   }
 </style>
