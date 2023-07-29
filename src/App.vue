@@ -2,7 +2,7 @@
   <main>
     <section class="sidebar">
       <div class="logo-area">
-        <img src="src/assets/img/png/wallet.png" />
+        <img src="src/assets/img/svg/wallet-icon.svg" />
         <h1 class="title">FinanSer</h1>
       </div>
       <section class="links">
