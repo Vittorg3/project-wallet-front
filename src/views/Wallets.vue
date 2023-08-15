@@ -213,6 +213,21 @@
     <section class="quick-start-section">
 
     </section>
+    <modal>
+      <div class="modal-content">
+        <div class="modal-header">
+          <img src="src/assets/img/svg/close-icon.svg" />
+        </div>
+        <div class="modal-form">
+          <h3>Titulo da Carteira</h3>
+          <input class="input-custom" type="text" />
+          <h3>Valor</h3>
+          <input class="input-custom" type="text" />
+          <button class="btn-modal-primary">salvar</button>
+          <button class="btn-modal-secondary">transferir quantia</button>
+        </div>
+      </div>
+    </modal>
   </main>
 </template>
 
@@ -220,6 +235,74 @@
 </script>
 
 <style scoped>
+  div.modal-content {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    min-width: 400px;
+    min-height: 400px;
+    border-radius: 15px;
+    background-color: white;
+  }
+
+  div.modal-header {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 30px;
+  }
+
+  div.modal-header img {
+    width: 30px;
+    cursor: pointer;
+  }
+
+  div.modal-form {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+  }
+
+  div.modal-form h3 {
+    font-weight: 500;
+    padding-top: 15px;
+  }
+
+  div.modal-form .input-custom {
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    outline: 0;
+    border: 0.5px solid #00000018;
+    background-color: #d9d9d934;
+    padding-left: 10px;
+    margin-top: 5px;
+  }
+
+  div.modal-form .input-custom:nth-of-type(2) {
+    width: 30%;
+  }
+
+  button.btn-modal-primary, .btn-modal-secondary {
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 20px;
+    outline: 0;
+    border: 0;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 14px;
+    background-color: #9878F5;
+  }
+
+  button.btn-modal-secondary {
+    border: 1px solid #9878F5;
+    color: #000;
+    background-color: #fff;
+  }
+  
   main {
     display: flex;
     width: 100%;
