@@ -213,17 +213,10 @@
     <section class="quick-start-section">
 
     </section>
-<<<<<<< HEAD
     <modal v-show="showModal">
       <div class="modal-content">
         <div class="modal-header">
           <img @click="modalSwitch(false)" src="src/assets/img/svg/close-icon.svg" />
-=======
-    <modal>
-      <div class="modal-content">
-        <div class="modal-header">
-          <img src="src/assets/img/svg/close-icon.svg" />
->>>>>>> 248bc3b453320cb14616c2488b080d346be24bb7
         </div>
         <div class="modal-form">
           <h3>Titulo da Carteira</h3>
