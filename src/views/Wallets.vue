@@ -272,7 +272,8 @@
 
   div.modal-form h3 {
     font-weight: 500;
-    padding-top: 15px;
+    padding-top: 5px;
+    color: #000;
   }
 
   div.modal-form .input-custom {
@@ -306,7 +307,7 @@
 
   button.btn-modal-secondary {
     border: 1px solid #9878F5;
-    color: #000;
+    color: #000 !important;
     background-color: #fff;
   }
   
@@ -409,7 +410,7 @@
   }
 
   div.wallet-limit-info span {
-    color: #000;
+    color: #000 !important;
     font-weight: bold;
     font-size: 15px;
     margin-bottom: 5px;
@@ -500,7 +501,7 @@
   }
 
   div.transaction-info-area label {
-    color: #000;
+    color: #000 !important;
     font-size: 16px;
     font-weight: 500;
   }

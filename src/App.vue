@@ -122,7 +122,7 @@
     font-family: 'Ysabeau Office', sans-serif;
     font-weight: bold;
     font-size: 30px;
-    color: #000;
+    color: #000 !important;
     margin-left: 10px;
   }
 
@@ -163,5 +163,6 @@
     margin-left: 20px;
     font-weight: 500;
     cursor: pointer;
+    color: #000;
   }
 </style>
