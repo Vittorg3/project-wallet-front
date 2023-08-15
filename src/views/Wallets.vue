@@ -272,7 +272,7 @@
 
   div.modal-form h3 {
     font-weight: 500;
-    padding-top: 15px;
+    padding-top: 5px;
   }
 
   div.modal-form .input-custom {
