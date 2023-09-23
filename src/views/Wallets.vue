@@ -273,7 +273,10 @@
   div.modal-form h3 {
     font-weight: 500;
     padding-top: 5px;
+<<<<<<< HEAD
     color: #000;
+=======
+>>>>>>> c36e6b96f97ae9e60485aca77c9c00c94f7daa63
   }
 
   div.modal-form .input-custom {
