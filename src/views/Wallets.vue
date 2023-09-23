@@ -446,6 +446,7 @@
     font-size: 30px;
     font-weight: bold;
     margin-left: 40px;
+    color: #000;
   }
 
   div.transactions-scroll-area {
