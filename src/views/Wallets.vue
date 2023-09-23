@@ -211,7 +211,9 @@
       </div>
     </section>
     <section class="quick-start-section">
-
+      <div class="shortcut-section">
+        <h1>Ações</h1>
+      </div>
     </section>
     <modal v-show="showModal">
       <div class="modal-content">
@@ -527,5 +529,28 @@
 
   div.transaction-value-area .positive {
     color: rgb(76, 194, 76);
+  }
+
+  section.quick-start-section {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 100%;
+  }
+
+  section.quick-start-section .shortcut-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
+    margin-top: 17px;
+    background-color: #F2F7FF;
+  }
+
+  div.shortcut-section h1 {
+    color: #000;
+    margin: 10px 0 0 0;
   }
 </style>
