@@ -213,6 +213,14 @@
     <section class="quick-start-section">
       <div class="shortcut-section">
         <h1>Ações</h1>
+        <div class="container">
+          <div class="button-quick-action">
+            <label>pagar</label>
+          </div>
+          <div class="button-quick-action">
+            <label>adicionar</label>
+          </div>
+        </div>
       </div>
     </section>
     <modal v-show="showModal">
@@ -552,5 +560,36 @@
   div.shortcut-section h1 {
     color: #000;
     margin: 10px 0 0 0;
+  }
+
+  div.button-quick-action {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    border-radius: 15px;
+    background-color: #E7F0FF;
+    transition: all ease .2s;
+    cursor: pointer;
+  }
+
+  div.button-quick-action label {
+    position: absolute;
+    left: 20%;
+    bottom: -30px;
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  div.button-quick-action:hover {
+    transform: scale(1.1);
+  }
+
+  div.shortcut-section .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
   }
 </style>
